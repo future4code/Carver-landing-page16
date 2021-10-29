@@ -13,7 +13,40 @@
   margin: auto; /*DEIXA O CONTEUDO NO MEIO */
   display: flex;
   align-items: center;
+
 }
+.menu ul {
+  padding:0px;
+  margin:0px;
+  background-color:#EDEDED;
+  list-style:none;
+  font-size: 20px;
+  text-align: right;
+}
+.menu ul li { 
+  display: inline; 
+}
+.menu ul li a {
+  padding: 2px 10px;
+  display: inline-block;
+  margin-right: 10%;
+  /* visual do link */
+  background-color:#EDEDED;
+  color: #333;
+  text-decoration: none;
+  border-bottom:3px solid #EDEDED;
+}
+.menu ul li a:hover{
+  background-color:gold;
+  color:black;
+  border-radius: 20px;
+}
+
+
+
+
+
+
 .logo > img {
   width: 100px;
   height: 90px;
@@ -98,4 +131,35 @@ body {
   cursor: pointer;
   background-color: #ffdead;
   border: 1px solid #ffdead;
+}
+
+.pecaja{
+   display: flex;
+
+}
+.icone-face{
+  
+  margin-top: 450px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+ 
+}
+.icone-insta{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.icone-twiter{
+
+  margin-left: 10px;
+}
+
+.rodape{
+  
+ 
+ background-color: gold;
+
+}
+.rodape ul{
+padding: 30px;
+
 }
