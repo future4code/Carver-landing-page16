@@ -77,7 +77,6 @@ body {
 }
 .principal {
   background-image: url("./imagens/food-g4e398c77d_1280.jpg");
-  width: 667px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -130,7 +129,6 @@ body {
 }
 .detalhes {
   display: flex;
-  flex-wrap: wrap;
   margin-bottom: 30px;
 }
 .detalhes-produtos h3 {
