@@ -12,29 +12,37 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/04aa25c7ca.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
   </head>
   <body>
     <header class="menu formatacao-padrao">
       <div class="logo">
         <img src="./imagens/Logo-4food.png" />
       </div>
-    
-    </header>
-      <nav class="menu">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href ="#produtos">Produtos</a></li>
-        <li><a href="#contato">Peça já!</a></li>
-      </ul>
+      <div class="icone-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+      <nav>
+        <ol>
+          <li>Home</li>
+          <li>Cardápio</li>
+          <li>Pedidos</li>
+        </ol>
       </nav>
+    </header>
+
     <main>
-      <section class="principal formatacao-padrao" id="home">
+      <section class="principal formatacao-padrao">
         <div class="titulo">
           <h1><em>4</em>FOOD</h1>
           <h2>Coma bem. Sem sair de casa</h2>
         </div>
       </section>
-      <section class="produtos formatacao-padrao" id="produtos">
+      <section class="produtos formatacao-padrao">
         <div class="titulo-produtos">
           <h1>Os melhores pratos</h1>
         </div>
@@ -60,38 +68,67 @@
           <div class="detalhes-produtos">
             <img src="./imagens/orange.jpg" />
             <h3>Sucos com frutas frescas</h3>
-            <strong
-              >Os melhores ingredientes, totalmente caseiro, molhos
-              delciosos</strong
-            >
+            <strong>Frutas selecionadas, variedade de sabores.</strong>
             <button type="submit">SAIBA MAIS</button>
           </div>
         </div>
       </section>
-      
-        <div class="icone-face" >
-          
-          <a href="https://pt-br.facebook.com/" target="_blank">
-            <img src="../imagens/Facebook.icon" width="70px">
-          </a>
+
+      <section class="contatos formatacao-padrao">
+        <div class="titulo-redes">
+          <h1>Contatos</h1>
         </div>
-      <div class="icone-insta" >          
-        <a href="https://pt-br.instagram.com/" target="_blank">
-          <img src="../imagens/insta.icon" width="70px">
-        </a>
-      </div>
-      <div class="icone-twiter" >
-        <a href="https://pt-br.twitter.com/" target="_blank">
-          <img src="../imagens/twiter.icon" width="70px">
-        </a>
-      </div></section>
+        <div class="icones-rs">
+          <div class="desc-icones">
+            <a><i class="fab fa-facebook"></i></a>
+            <strong>4food</strong>
+          </div>
+          <div class="desc-icones">
+            <a><i class="fab fa-instagram"></i></a>
+            <strong>@4foodDelivery</strong>
+          </div>
+          <div class="desc-icones">
+            <a><i class="fas fa-phone"></i></a>
+            <strong>(10) 98765-4321</strong>
+          </div>
+          <div class="desc-icones">
+            <a><i class="fas fa-at"></i></a>
+            <strong>contato@4food.com.br</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="pedidos formatacao-padrao">
+        <div class="titulo-pedidos">
+          <h1>Pedidos</h1>
+        </div>
+        <div class="detalhes-pedido">
+          <div class="pedido-img">
+            <img src="imagens/122-work-from-home-2.png" />
+          </div>
+          <div class="pedidos-formulario">
+            <form>
+              <input type="text" placeholder="Digite seu nome" />
+              <input type="number" placeholder="Digite seu Telefone" />
+              <input type="email" placeholder="Digite seu E-mail" />
+              <button type="submit">ENVIAR</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="rodape formatacao-padrao">
-    <ul>
-      <em><li>Trabalhe conosco</li></em>
-     <em><li>Onde estamos</li></em>
-     <em><li>FAQ/Perguntas Frequentes</li></em>
-  </ul></footer>
+      <div><img src="./imagens/Logo-4food.png" /></div>
+      <div>
+        <h3>criado por: Augusto Moura - Riclecio Ferreira</h3>
+      </div>
+      <div>
+        <ul>
+          <a href="#"><li>FAQ</li></a>
+          <a href="#"><li>Trabalhe Conosco</li></a>
+          <a href="#"><li>Quem somos</li></a>
+        </ul>
+      </div>
+    </footer>
   </body>
-
 </html>
